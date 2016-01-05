@@ -1,0 +1,14 @@
+diff --git a/reaction b/reaction
+index 4834fb4..ad8981e 100755
+--- a/reaction
++++ b/reaction
+@@ -4,7 +4,7 @@ set -u
+ set -e
+ # copy clone-packages.sh so that any directory
+ # can be specified for use in PACKAGE_DIRS config.
+-cp bin/clone-packages.sh /usr/local/bin/
++sudo cp bin/clone-packages.sh /usr/local/bin/
+ 
+ #
+ # by default runs settings/dev.settings.json
+
